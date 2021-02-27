@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Commissioner";
+  src: url("../fonts/Commissioner-Bold.woff2") format("woff2"),
+    url("../fonts/Commissioner-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("../fonts/Commissioner-Medium.woff2") format("woff2"),
+    url("../fonts/Commissioner-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("../fonts/Commissioner-Regular.woff2") format("woff2"),
+    url("../fonts/Commissioner-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-image: url(../images/image-hero-desktop.jpg);
+  padding: 0;
+  margin: 0;
+  font-family: "Commissioner", "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #7a7a7a;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  max-width: 770px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
