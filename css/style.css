@@ -105,6 +105,10 @@ img {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.sitenav-link:hover {
+  text-decoration: underline;
+}
+
 /* INDEX-FEATURES */
 /* .index-features {
   padding-top: 150px;
@@ -141,7 +145,7 @@ img {
 .index-features-title {
   margin: 0;
   margin-top: 28px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 28px;
   line-height: 34px;
   color: #000;
@@ -178,6 +182,9 @@ img {
   background-color: #3cb3ab;
   color: #fff;
   cursor: pointer;
+}
+.index-feature-project:hover {
+  background-color: #147a73;
 }
 
 .index-feature-bookmark {
@@ -217,7 +224,7 @@ img {
 
 .index-statistics-title {
   margin-top: 48px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #000;
@@ -353,6 +360,10 @@ img {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.about-project-reward:hover {
+  background-color: #147a73;
 }
 
 .about-project-container:nth-child(3n) .about-project-reward {
