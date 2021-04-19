@@ -48,7 +48,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -57,7 +57,7 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+}
 
 .container-fluid {
   max-width: 1150px;
